@@ -191,143 +191,132 @@ export class ProfileService {
 
   skillsData: any = [
     {
-      'id': '1',
-      'skill': 'ANGULAR 2+',
-      'progress': '85%'
+      id: '1',
+      skill: 'Angular',
     },
     {
-      'id': '2',
-      'skill': 'NODE JS',
-      'progress': '80%'
+      id: '2',
+      skill: 'Symfony',
     },
     {
-      'id': '3',
-      'skill': 'JAVASCRIPT JQUERY',
-      'progress': '80%'
+      id: '3',
+      skill: 'Spring Boot',
     },
     {
-      'id': '4',
-      'skill': 'SQL , MYSQL,MONOGO, FIREBASE',
-      'progress': '75%'
+      id: '4',
+      skill: 'Python',
     },
     {
-      'id': '5',
-      'skill': 'REACT JS',
-      'progress': '75%'
+      id: '5',
+      skill: 'Java',
     },
     {
-      'id': '6',
-      'skill': 'PYTHON,JAVA',
-      'progress': '70%'
-    }
+      id: '6',
+      skill: 'JavaScript, jQuery',
+    },
+    {
+      id: '7',
+      skill: 'MySQL, Firebase',
+    },
+    {
+      id: '8',
+      skill: 'HTML5, CSS3, JSON',
+    },
+    {
+      id: '9',
+      skill: 'RESTful APIs',
+    },
+    {
+      id: '10',
+      skill: 'Jenkins, Docker',
+    },
+    {
+      id: '11',
+      skill: 'Git',
+    },
   ];
 
 
   educationData: any = [
     {
-      'id': '1',
-      'from_to_year': '2015 - 2019',
-      'education': 'Bachelor\'s Degree',
-      'stream': 'Bachelor of Engineering',
-      'info': `Aditya Silver Oak Institute is GTU Affiliated and ranks 7th in Gujurat
-Completed B.E in Computer Engineering with 9.54 CGPA.
-Won the Best Student Award 3 times for excellent Academic records at College.
-Maintained above 9.1 spi in every semester of college academic .`,
-      'institution': 'ADITYA SILVER OAK INSTITUTE OF TECHNOLOGY, AHMEDABAD'
+      id: '1',
+      from_to_year: '2022 - Present',
+      education: 'Software Engineering',
+      stream: 'Bachelor of Software Engineering',
+      institution: 'The Private Higher School of Engineering and Technology (Esprit), Tunis',
+      info: `Currently pursuing a Software Engineering diploma at Esprit, Tunis.  
+      Focusing on full-stack development, CI/CD automation, and software architecture.  
+      Actively involved in multiple development projects including web applications and automation pipelines.`
     },
     {
-      'id': '2',
-      'from_to_year': '2013 - 2015',
-      'education': 'Higher Secondary',
-      'stream': 'Science and Mathematics',
-      'institution': 'GYANDEEEP VIDHYALAYA,AHMEDABAD',
-      'info': `The High School was mainly focus on the bases of science, mathematics, and Chemistry
-There was also a good base on physics, mathematics and chemistry.
-Completed my high school with 78%.`
-    },
-    {
-      'id': '3',
-      'from_to_year': '2012 - 2013',
-      'education': 'Secondary  School',
-      'stream': 'Science and Mathematics',
-      'institution': 'GYANDEEEP VIDHYALAYA,AHMEDABAD',
-      'info': `The Secondary aims at Maths , English , Science, Social Science, Litrature and Languages.
-Completed my Secondary school with 84%.`
+      id: '2',
+      from_to_year: '2019 - 2022',
+      education: 'Electrical Engineering',
+      stream: 'Bachelor of Electrical Engineering',
+      institution: 'ISET Nabeul, Tunisia',
+      info: `Completed a Bachelor's degree in Electrical Engineering at ISET Nabeul.  
+      Focused on industrial machine automation programming and control systems.  
+      Thesis: Industrial Machine Automation Programming, which involved developing control logic for industrial equipment.`
     }
   ];
   exprienceData: any = [
     {
       id: 4,
-      company: 'Crest Data System',
-      location: 'Ahmedabad',
-      timeline: 'Aug 2021 to Present',
-      role: 'Software Developer',
-      work: 'Working as a full stack developer .Responsible for handling the UI in React and Managing the api calls in python Flask.'
-
+      company: 'Sofirux',
+      location: 'Tunis, Tunisia',
+      timeline: 'July 2024 - September 2024',
+      role: 'Software Engineering Intern',
+      work: `Developed a timesheet application to efficiently manage and track employee hours and tasks.
+      - Technologies: Angular, Symfony.`
     },
     {
       id: 3,
-      company: 'Indianic Info Tech',
-      location: 'Ahmedabad',
-      timeline: 'Feb 2021 to June 2021',
-      role: 'Software Developer',
-      work: `Technologies : Angular , Node JS , MongoDB .
-      Worked on the web application built in Angular for different business and Campaigns .
-      Contributed on developing the admin dashboard with different charts and insights for the application.`
+      company: 'Medis',
+      location: 'Tunis, Tunisia',
+      timeline: 'July 2023 - August 2023',
+      role: 'Network Engineering Intern',
+      work: `Configured routers and switches for a mid-sized enterprise environment.
+      - Conducted network troubleshooting and maintenance.
+      - Assisted in network configuration for the company network.`
     },
-  //   {
-  //     id: 2,
-  //     company: 'Growth99',
-  //     location: 'Remote',
-  //     timeline: '',
-  //     role: 'Frontend  Developer',
-  //     work: `Technologies : Angular , Node JS , MongoDB .
-  // Worked on the product of Growth99 which allowed other clients to come and integrate our product in their website .
-  // Worked on REST Api , Admin Dashboard , Appointment Booking for services and UI of the application .
-  // Created sections like templates for email, sms, landing pages, clinic, services, providers and triggers Automation.
-  // `
-  //   },
-
+    {
+      id: 2,
+      company: 'Medis',
+      location: 'Tunis, Tunisia',
+      timeline: 'February 2022 - May 2022',
+      role: 'Engineering Intern',
+      work: `Developed and programmed a PLC (Programmable Logic Controller) for an industrial washing machine.
+      - Designed and implemented control logic to improve operational efficiency.
+      - Tested and validated system performance in a collaborative team environment.`
+    },
     {
       id: 1,
-      company: 'Tata Consultancy Services',
-      location: 'Gandhinagar and Pune',
-      timeline: 'June 2019 - Jan 2021',
-      role: 'Assistant System Engineer Trainee',
-      work: `Technologies : Angular , JavaSpring Boot , SQL. Apache Solr .
-
-  Project 1 : Worked on uploading two excel sheets with bulk of data and finding the matches for each business .
-
-  Project 2 : Worked on indexing the search results inside the application with bulk of data using Apache Solr and configuring the server with cron jobs and shell scripts .
-
-  Worked on ranking the search results based on various criteria,features and delivering the accurate results based on generated scores.
-  `
-    },
+      company: 'Electrical Engineering Company',
+      location: 'Tunis, Tunisia',
+      timeline: 'January 2020',
+      role: 'Intern',
+      work: `Gained hands-on experience with circuit design and electrical systems.
+      - Assisted in various engineering projects and tasks.`
+    }
 
 
   ]
 
   extraCircularInfo: any = [
-    {
-      id:1,
-      title: 'Blogger',
-      description: '',
-      img: 'assets/images/Mehul Kothari – Medium1.png',
-      url: 'https://mehulkothari05.medium.com/'
-    },
+    
     {
       id:1,
       title: 'Github',
       description: '',
-      img: 'assets/images/Mehulkothari_github.png',
-      url: 'https://github.com/mehulk05/'
+      img: 'assets/images/github.png',
+      url: 'https://github.com/hamdimech1/'
     },
     {
       id:1,
-      title: 'Freelancing',
+      title: 'linkdin',
       description: '',
-      img: 'assets/images/mehul_freelancing.png',
-      url: 'https://www.upwork.com/freelancers/~016d6f497a5629df4b'
+      img: 'assets/images/link.png',
+      url: 'https://www.linkedin.com/in/hamdi-mechmech-35b64b275/'
     },
   ]
   // contactus(data: any): Observable<any> {
